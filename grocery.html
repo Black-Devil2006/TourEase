@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery - TourEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+    </ul>
+  </nav>
+
+  <section id="grocery">
+    <h2>🛒 Grocery Shopping</h2>
+    <div class="grocery-grid">
+      <div class="item">
+        <img src="https://cdn-icons-png.flaticon.com/512/415/415682.png" alt="Apples">
+        <h3>Apples</h3>
+        <p>₹120 / kg</p>
+        <button onclick="addToCart({name:'Apples', price:120})">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Milk">
+        <h3>Milk</h3>
+        <p>₹60 / litre</p>
+        <button onclick="addToCart({name:'Milk', price:60})">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Bread">
+        <h3>Bread</h3>
+        <p>₹40 / pack</p>
+        <button onclick="addToCart({name:'Bread', price:40})">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grocery Map -->
+  <section id="groceryMap">
+    <h2>📍 Grocery Location Map</h2>
+    <div id="mapGrocery" style="height:500px; width:100%"></div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initGroceryMap" async defer></script>
+</body>
+</html>

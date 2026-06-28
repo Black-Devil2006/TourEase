@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rentals - TourEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+    </ul>
+  </nav>
+
+  <section id="rentals">
+  <h2>🚗 Rent a Vehicle</h2>
+  <div class="rental-grid">
+    <!-- Self-drive booking -->
+    <div class="item">
+      <h3>Self Drive Rentals</h3>
+      <p>Choose Car/Bike and book for yourself</p>
+      <button onclick="window.location.href='booking.html'">Book Vehicle</button>
+    </div>
+
+    <!-- Driver with vehicle booking -->
+    <div class="item">
+      <h3>Ride with Driver</h3>
+      <p>Book Cab/Bike/Auto with driver</p>
+      <button onclick="window.location.href='driverBooking.html'">Book Ride</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Rental Map -->
+  <section id="rentalMap">
+    <h2>📍 Rental Location Map</h2>
+    <div id="mapRental" style="height:500px; width:100%"></div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initRentalMap" async defer></script>
+</body>
+</html>

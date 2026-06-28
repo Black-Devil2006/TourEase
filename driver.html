@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Driver Registration - TourEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="rentals.html">🚗 Rentals</a></li>
+      <li><a href="grocery.html">🛒 Grocery</a></li>
+    </ul>
+  </nav>
+
+  <!-- Driver Registration Section -->
+  <section id="driver">
+    <h2>👨‍✈️ Driver Registration</h2>
+    <form id="driverForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="text" placeholder="License Number" required>
+      <select required>
+        <option value="">Select Vehicle Type</option>
+        <option value="Car">Car</option>
+        <option value="Bike">Bike</option>
+        <option value="Auto">Auto</option>
+      </select>
+      <button type="submit">Register Driver</button>
+    </form>
+  </section>
+
+  <!-- Driver List Section -->
+  <!-- Driver List Section (REMOVE if you want private only) -->
+<!-- <section id="driverListSection">
+  <h2>📋 Registered Drivers</h2>
+  <div id="driverList"></div>
+</section> -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>

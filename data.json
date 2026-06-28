@@ -1,0 +1,15 @@
+{
+  "rentals": [
+    { "id": 1, "type": "car", "name": "Sedan", "price": 1200 },
+    { "id": 2, "type": "car", "name": "SUV", "price": 1800 },
+    { "id": 3, "type": "bike", "name": "Scooter", "price": 400 },
+    { "id": 4, "type": "bike", "name": "Motorbike", "price": 700 }
+  ],
+  "grocery": [
+    { "id": 1, "name": "Apples", "price": 120 },
+    { "id": 2, "name": "Milk", "price": 60 },
+    { "id": 3, "name": "Bread", "price": 40 },
+    { "id": 4, "name": "Rice", "price": 80 },
+    { "id": 5, "name": "Vegetables", "price": 100 }
+  ]
+}

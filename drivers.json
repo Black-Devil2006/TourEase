@@ -1,0 +1,24 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Ramesh Kumar",
+      "phone": "9876543210",
+      "license": "MP09AB1234",
+      "vehicle": "car",
+      "lat": 22.7196,
+      "lng": 75.8577,
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Amit Sharma",
+      "phone": "9876543211",
+      "license": "MH12AB3456",
+      "vehicle": "bike",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "availability": true
+    }
+  ]
+}
